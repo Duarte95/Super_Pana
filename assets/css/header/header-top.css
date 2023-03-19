@@ -1,0 +1,46 @@
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(40, 40, 40);
+    height: 2.8rem;
+    padding: .4rem;
+    align-items: center;
+}
+
+.header__descripcion {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.header__moneda {
+    display: flex;
+}
+
+.header__moneda--texto {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2;
+}
+
+.header__moneda--tipo {
+    height: 1rem;
+    width: 2rem;
+    background-color: blueviolet;
+}
+
+@media screen and (max-width: 368px){
+  
+  :root{
+    font-size: 10px;
+  }
+  
+  .header__top{
+    justify-content: center;
+  }
+  
+  .header__moneda{
+    display: none;
+  }
+  
+}

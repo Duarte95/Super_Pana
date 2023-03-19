@@ -1,0 +1,22 @@
+.header__social {
+    display: flex;
+}
+
+.social__items {
+    color: white;
+    font-weight: bold;
+    margin-right: 1.7rem;
+}
+
+.social__images {
+    height: 1.2rem;
+    width: auto;
+}
+
+@media screen and (max-width: 368px){
+
+  .header__social{
+    display: none;
+  }
+  
+}
